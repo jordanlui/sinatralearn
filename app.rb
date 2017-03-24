@@ -2,7 +2,8 @@ require "sinatra"
 
 get "/" do
 	# erb :home
-	send_file "home.html"
+	# send_file "home.html"
+	"welcome to home page"
 end
 
 get "/about" do
